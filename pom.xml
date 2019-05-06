@@ -18,5 +18,16 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
+         
+   <distributionManagement>
+      <repository>
+        <id>1234</id>
+   	<url>http://localhost:8050/nexus/content/repositories/releaseRepo</url>
+      </repository>
+     <snapshotRepository>
+        <id>2345</id>
+        <url>http://localhost:8050/nexus/content/repositories/snapshotRepo/</url>
+     </snapshotRepository>
+</distributionManagement>
 
 </project>
